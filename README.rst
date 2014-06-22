@@ -23,9 +23,13 @@ Quick start
     CONNECTIONS = {
         'production_server_1': {
             'host': 'example.com',
+
             'user': 'example_user',
+
             'password': 'example_password',  # must specify either 'password' OR 'key_filename'
+
             'key_filename': '/private/key/file.pem',
+
             'srv_dir': '/path/to/salt/files/'  # (optional) path to salt srv files
         }
     }
