@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-deploy-with-salt',
     version='0.1.0',
-    packages=['deploy_with_salt'],
+    packages=['django_deploy_with_salt'],
     include_package_data=True,
     license='GNU General Public License v3 (GPLv3)',
     description='Django command that allows you to connect to remote servers, setup a salt minion and deploy your project using salt files from a git repository.',
