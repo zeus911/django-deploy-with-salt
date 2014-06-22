@@ -54,10 +54,10 @@ class Command(BaseCommand):
         if 'password' in connection_settings:
             env.user = connection_settings['user']
             env.password = connection_settings['password']
-        elif 'key_file' in connection_settings:
-            env.key_filename = connection_settings['key_file']
+        elif 'key_filename' in connection_settings:
+            env.key_filename = connection_settings['key_filename']
         else:
-            print 'No \'password\' or \'key_file\' found for this host'
+            print 'No \'password\' or \'key_filename\' found for this host'
             print 'Please update your CONNECTION_SETTINGS for this host'
             return
 
