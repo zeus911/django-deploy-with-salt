@@ -85,9 +85,11 @@ def get_srv_dir(connection_settings):
     return srv_dir
 
 def validate_connection_settings(connection_settings):
+    #TODO: validate the connection settings
     return True
 
 def validate_hosts_file(hosts):
+    #TODO: valdate the contents of the hosts.py file
     return True
 
 @parallel
